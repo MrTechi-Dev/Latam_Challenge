@@ -23,6 +23,10 @@ pip install memory-profiler
 
 Uso
 
+```bash
+python3 challange.py
+
+```bash
 El proyecto incluye varias funciones, cada una con su propia documentación y perfilado. Aquí hay un resumen de las funciones principales:
 q1_time(file_path: str)
 

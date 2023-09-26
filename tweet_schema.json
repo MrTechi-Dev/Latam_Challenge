@@ -1,0 +1,23 @@
+{
+    "url": "str",
+    "date": "str",
+    "content": "str",
+    "renderedContent": "str",
+    "id": "int",
+    "user": "dict",
+    "outlinks": "list",
+    "tcooutlinks": "list",
+    "replyCount": "int",
+    "retweetCount": "int",
+    "likeCount": "int",
+    "quoteCount": "int",
+    "conversationId": "int",
+    "lang": "str",
+    "source": "str",
+    "sourceUrl": "str",
+    "sourceLabel": "str",
+    "media": "NoneType",
+    "retweetedTweet": "NoneType",
+    "quotedTweet": "dict",
+    "mentionedUsers": "list"
+}

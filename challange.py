@@ -53,8 +53,8 @@ def q1_time(file_path: str) -> List[Tuple[date, str]]:
 
     return result
 
-@timeit
-#@profile
+
+@profile
 def q1_memory(file_path: str) -> List[Tuple[date, str]]:
     '''La funcion devuelve  las top 10 fechas  donde ahi mas tweets optimisando memoria con la libreria heapq'''
     date_counts = Counter()
@@ -92,8 +92,8 @@ def q2_time(file_path: str) -> List[Tuple[str, int]]:
         emoji_counts.update(emojis)
 
     return emoji_counts.most_common(10)
-@timeit
-#@profile
+
+@profile
 def q2_memory(file_path: str) -> List[Tuple[str, int]]:
     '''La funcion devuelve  las top 10 emojis  mas usados optimisando memoria con  la libreria heapq'''
     emoji_counts = Counter()
@@ -118,8 +118,8 @@ def q3_time(file_path: str) -> List[Tuple[str, int]]:
             user_mention_counts[username] += len(mentions)
 
     return user_mention_counts.most_common(10)
-@timeit
-#@profile
+
+@profile
 def q3_memory(file_path: str) -> List[Tuple[str, int]]:
     '''La funcion devuelve  las top 10 usuarios mas mencionados optimizando  memoria usando la libreria heapq'''
     user_mention_counts = Counter()
